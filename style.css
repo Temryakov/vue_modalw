@@ -9,6 +9,10 @@ body {
     padding-bottom: 20rem;
 }
 
+body.modal_open {
+    overflow: hidden;
+}
+
 h1 {
     font-weight: 300;
     font-size: 2.5rem;
@@ -46,7 +50,10 @@ button {
     overflow-x: auto;   
     width: 40rem;
     border-radius: 1rem;
-    padding: 3rem;
+    padding-top: 3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-bottom: 6rem;
 }
 
 .modal-header {
@@ -58,16 +65,7 @@ button {
 .modal-content {
     font-size: 20px;
     font-weight: 100;
-}
-
-.modal-close {
-    position: absolute;
-    right: 32px;
-    top: 32px;
-    width: 32px;
-    height: 32px;
-    opacity: 0.3;
-    cursor: pointer;
+    padding-bottom: 2rem;
 }
 
 .modal-close:hover {
