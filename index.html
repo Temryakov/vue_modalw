@@ -8,6 +8,27 @@
     </head>
     <body>
         <div id='app'>
+            <template>
+                <div class="modal-backdrop">
+                  <div class="modal">
+                    <a class='modal-close'></a>
+                    <div class="modal-header">
+                        Modal Window
+                    </div>
+                    <div class="modal-content">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero magni 
+                        debitis fuga voluptate dolorum illum aliquid ratione veniam ipsam quisquam
+                        cumque, iusto minus, natus, facilis dolorem ut modi officiis similique.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero magni 
+                        debitis fuga voluptate dolorum illum aliquid ratione veniam ipsam quisquam
+                        cumque, iusto minus, natus, facilis dolorem ut modi officiis similique.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero magni 
+                        debitis fuga voluptate dolorum illum aliquid ratione veniam ipsam quisquam
+                        cumque, iusto minus, natus, facilis dolorem ut modi officiis similique.
+                    </div>
+                  </div>
+                </div>
+            </template>
             <div class='main-content'>
                 <h1>
                     Lorem ipsum dolor sit amet consectetur adipisicing elit.
@@ -16,48 +37,21 @@
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus asperiores
                     similique quos quisquam rem sit dolorum ea quam est magnam, sint nobis! Maxime
                     pariatur aut sunt aliquid, ratione laboriosam vel?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus asperiores
+                    <span style='background-color: rgb(78, 218, 90); padding: 3px;'>Lorem ipsum dolor sit amet consectetur adipisicing</span> elit. Accusamus asperiores
                     similique quos quisquam rem sit dolorum ea quam est magnam, sint nobis! Maxime
                     pariatur aut sunt aliquid, ratione laboriosam vel?
                     Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus asperiores
                     similique quos quisquam rem sit dolorum ea quam est magnam, sint nobis! Maxime
                     pariatur aut sunt aliquid, ratione laboriosam vel?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus asperiores
-                    similique quos quisquam rem sit dolorum ea quam est magnam, sint nobis! Maxime
-                    pariatur aut sunt aliquid, ratione laboriosam vel?
-                </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus asperiores
-                    similique quos quisquam rem sit dolorum ea quam est magnam, sint nobis! Maxime
-                    pariatur aut sunt aliquid, ratione laboriosam vel?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus asperiores
-                    similique quos quisquam rem sit dolorum ea quam est magnam, sint nobis! Maxime
-                    pariatur aut sunt aliquid, ratione laboriosam vel?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus asperiores
-                    similique quos quisquam rem sit dolorum ea quam est magnam, sint nobis! Maxime
-                    pariatur aut sunt aliquid, ratione laboriosam vel?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus asperiores
-                    similique quos quisquam rem sit dolorum ea quam est magnam, sint nobis! Maxime
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit.  <span style='background-color: yellow; padding: 3px;'>Accusamus asperiores
+                        similique quos quisquam rem sit dolorum ea quam est</span> magnam, sint nobis! Maxime
                     pariatur aut sunt aliquid, ratione laboriosam vel?
                 </p>
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus asperiores
-                    similique quos quisquam rem sit dolorum ea quam est magnam, sint nobis! Maxime
-                    pariatur aut sunt aliquid, ratione laboriosam vel?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus asperiores
-                    similique quos quisquam rem sit dolorum ea quam est magnam, sint nobis! Maxime
-                    pariatur aut sunt aliquid, ratione laboriosam vel?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus asperiores
-                    similique quos quisquam rem sit dolorum ea quam est magnam, sint nobis! Maxime
-                    pariatur aut sunt aliquid, ratione laboriosam vel?
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus asperiores
-                    similique quos quisquam rem sit dolorum ea quam est magnam, sint nobis! Maxime
-                    pariatur aut sunt aliquid, ratione laboriosam vel?
-                </p>
-                <h1>Please, click this button.</h1>
-                <button class='main-content__button'>Button</button>
-                <div class='empty'></div>
             </div>
+            <h1 style='text-align: center;'>Please, click this button.</h1>
+            <button @click='showModal' class='main-button'>Button</button>
         </div>
     </body>
+    <script>
+    </script>
 </html>
